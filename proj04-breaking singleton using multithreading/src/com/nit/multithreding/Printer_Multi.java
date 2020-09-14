@@ -6,6 +6,8 @@ public class Printer_Multi implements Runnable {
 	Printer p=null;
 	@Override
 	public void run() {
+		
+		
 		p=Printer.getInstance();
 		
 		System.out.println("hashcode of p="+p.hashCode()+" and thread name is="+Thread.currentThread().getName());
