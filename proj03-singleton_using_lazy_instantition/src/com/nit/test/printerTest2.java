@@ -2,7 +2,7 @@ package com.nit.test;
 
 import com.nit.dp.Printer;
 
-public class PrinterTest {
+public class printerTest2 {
 
 	public static void main(String[] args) {
 		Printer p=null,p1=null;
@@ -14,5 +14,7 @@ public class PrinterTest {
 		System.out.println("p==p1?-->"+(p==p1));
 		System.out.println("============");
 		p.printDate("vikas yadav");
+
 	}
+
 }

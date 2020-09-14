@@ -2,6 +2,10 @@ package com.nit.dp;
 
 public class Printer {
 	
+	static {
+		System.out.println("Printer class has been loaded");
+	}
+	
 		//using lazy instantition
 		private static Printer instence;
 
