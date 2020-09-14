@@ -1,11 +1,15 @@
 package com.nit.dp;
 
 public class Printer {
+		
+	static {
+		System.out.println("Printer class loaded");
+	}
 	
 		private static Printer instence=new Printer();
 
 		private Printer() {
-			System.out.println("0 param constructor");
+			System.out.println("object created with 0 param constructor");
 		}
 
 		//static factory method
