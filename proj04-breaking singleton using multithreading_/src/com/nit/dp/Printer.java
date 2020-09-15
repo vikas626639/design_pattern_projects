@@ -20,6 +20,7 @@ public class Printer {
 			return instence;
 		}
 		
+		
 		public void printDate(String data) {
 			System.out.println("user given data is ="+data);
 		}
