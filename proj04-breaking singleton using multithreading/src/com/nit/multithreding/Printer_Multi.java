@@ -22,6 +22,8 @@ public class Printer_Multi implements Runnable {
 		t1.start();
 	}
 }
+
+
 /*
  * by using multithreading concept we can break singlton behaviour of lazy
  * Instantiation also
