@@ -13,6 +13,8 @@ public class Test {
 	System.out.println("p1==p2-->"+(p1==p2));
 	p3=(Printer) Printer.getInstance().clone();
 	System.out.println("hashcode of p3= "+p3.hashCode());
+
+	System.out.println("vikas");
 	}
 
 }
