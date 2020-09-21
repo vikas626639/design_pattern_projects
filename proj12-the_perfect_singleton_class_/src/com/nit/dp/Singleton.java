@@ -34,6 +34,7 @@ public class Singleton {
 		// TODO Auto-generated method stub
 		return instance;
 	}
+	
 
 	//deserialization
 	public Object readResolve() {
