@@ -1,10 +1,6 @@
 package com.nit.dp;
 
 public class Singleton {
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
 	//using minimum standard
 	private static Singleton instance;
 	private static boolean condition=false;
