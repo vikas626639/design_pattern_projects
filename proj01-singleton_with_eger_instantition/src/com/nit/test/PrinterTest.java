@@ -3,7 +3,7 @@ package com.nit.test;
 import com.nit.dp.Printer;
 
 public class PrinterTest {
-
+	static{System.out.println("hiiiiiii");}
 	public static void main(String[] args) {
 		Printer p=null,p1=null;
 		//not possoible to create object outside the class
